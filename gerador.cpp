@@ -1,7 +1,10 @@
 /*
-Questao 2
-Trabalho de Linguagem de Programacao - UNIFACS
-Desenvolvido por Lucas Fonseca e Pedro Gaya
+----------------------------------------------------------------------------
+A LICENÇA BEER-WARE ou A LICENÇA DA CERVEJA (Revisão 43 em Portugués Brasil):
+<pedrogaya@gmail.com> escreveu este arquivo. Enquanto esta nota estiver na coisa você poderá utilizá-la
+como quiser. Caso nos encontremos algum dia e você me reconheça e ache que esta coisa tem algum
+valor, você poderá me pagar uma cerveja em retribuição (ou mais de uma), Pedro Gaya.
+----------------------------------------------------------------------------
 */
 #include <iostream>
 #include <stdlib.h>
@@ -18,7 +21,6 @@ void clear(){
 }
 
 void abertura(){
-	clear();
 	cout << " .88888.                               dP                        dP          dP                                                   " << endl;
 	cout << "d8'   `88                              88                        88          88                                                   " << endl;
 	cout << "88       .d8888b.88d888b..d8888b..d888b88.d8888b.88d888b.  .d888b88.d8888b.  8888d8b.d8b..d8888b..d8888b..d8888b.88d888b..d8888b. " << endl;
@@ -37,7 +39,7 @@ void limpar(){
 int menu(){
 	int user;
 	do{
-	abertura();
+	limpar();
 	cout << "\n\n\tSeja bem-vindo ao gerador de imagens. Selecione a opcao desejada:" << endl;
 	cout << endl << "\t\t1-Gerar imagem basica." << endl;
 	cout << "\t\t2-Gerar figura geometrica." << endl;
